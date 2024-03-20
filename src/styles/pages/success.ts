@@ -7,7 +7,6 @@ export const SuccessContainer = styled('div', {
   alignItems: 'center',
 
   margin: '0 auto',
-  height: 656,
 
   'h1': {
     fontSize: '$2xl',
@@ -19,12 +18,13 @@ export const SuccessContainer = styled('div', {
     fontSize: '$xl',
     textAlign: 'center',
     maxWidth: 560,
-    margin: 'auto 0'
+    marginTop: '4rem'
   },
 
   'a': {
     display: 'block',
-    marginTop: 'auto',
+    marginTop: '2rem',
+    marginBottom: '2rem',
 
     textDecoration: 'none',
     fontSize: '$lg',
@@ -36,6 +36,11 @@ export const SuccessContainer = styled('div', {
   }
 })
 
+export const ImagesList = styled('div', {
+  display: 'flex',
+  marginTop: '3rem',
+})
+
 export const ImageContainer = styled('div', {
   background: '$imageBackground',
 
@@ -43,15 +48,17 @@ export const ImageContainer = styled('div', {
   alignItems: 'center',
   justifyContent: 'center',
   
-  height: 145,
   width: '100%',
   maxWidth: 130,
-  padding: '0.25rem',
-  marginTop: '4rem',
+  height: 'auto',
 
-  borderRadius: 8,
+  padding: '0.5rem',
+  marginLeft: -40,
+
+  boxShadow: '-10px 0px 50px 4px rgba(0, 0, 0, 0.5)',
+  borderRadius: 100,
 
   'img': {
-    objectFit: 'cover'
+    objectFit: 'contain'
   }
 })
