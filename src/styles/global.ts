@@ -11,7 +11,7 @@ export const globalStyles = globalCss({
     background: '$gray900',
     color: '$gray100',
 
-    overflow: 'hidden',
+    overflowX: 'hidden',
     '-webkit-font-smoothing': 'antialiased'
   },
 

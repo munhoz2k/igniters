@@ -1,5 +1,4 @@
 import { styled } from "@/styles";
-import { cursorTo } from "readline";
 
 export const ProductContainer = styled('div', {
   display: 'grid',
@@ -8,24 +7,22 @@ export const ProductContainer = styled('div', {
 
   gap: '4rem',
   maxWidth: 1180,
-  margin: '0 auto'
+  margin: '0 auto 1rem auto'
 })
 
 export const ImageContainer = styled('div', {
   background: '$imageBackground',
 
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
+  display: 'block',
 
   width: '100%',
-  maxWidth: 576,
-  height: '656px',
-  padding: '0.25rem',
+  maxWidth: 480,
   borderRadius: 8,
 
   'img': {
-    objectFit: 'cover'
+    objectFit: 'contain',
+    width: '100%',
+    height: 'auto'
   }
 })
 
@@ -71,8 +68,8 @@ export const ProductDetails = styled('div', {
       cursor: 'not-allowed'
     },
 
-    '&:not(disabled):hover': {
-      filter: 'brightness(0.8)'
+    '&:not([disabled]):hover': {
+      filter: 'brightness(1.2)'
     }
   }
 })
