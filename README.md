@@ -11,7 +11,7 @@
 ### `App Url:` [https://igniters.vercel.app/](https://igniters.vercel.app/)
 
 # About
-- This is a [Next.js](https://nextjs.org/) e-commerce projectintegrated with Stripe API
+- This is a [Next.js](https://nextjs.org/) e-commerce project integrated with Stripe API
 
 - Igniters Shop is a website where you can discover and purchase products through a carousel of items on the homepage. Users can add items to their shopping cart and proceed to checkout, where they will be redirected to a secure payment page to finalize their purchase.
 
