@@ -1,4 +1,4 @@
-<h1>Pizza Shop</h1>
+<h1>Igniters Shop</h1>
 <p>
  <a href="#about">About</a> • 
  <a href="#features">Features</a> • 
