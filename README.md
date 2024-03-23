@@ -1,40 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1>Pizza Shop</h1>
+<p>
+ <a href="#about">About</a> • 
+ <a href="#features">Features</a> • 
+ <a href="#technologies">Technologies</a> • 
+ <a href="#objective">Objective</a> •
+ <a href="#how-to-install">How to install</a> • 
+ <a href="#contributing">Contributing</a> • 
+</p>
 
-## Getting Started
+### `App Url:` [https://igniters.vercel.app/](https://igniters.vercel.app/)
 
-First, run the development server:
+# About
+- This is a [Next.js](https://nextjs.org/) e-commerce projectintegrated with Stripe API
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- Igniters Shop is a website where you can discover and purchase products through a carousel of items on the homepage. Users can add items to their shopping cart and proceed to checkout, where they will be redirected to a secure payment page to finalize their purchase.
+
+# Features
+- Carousel of items on the homepage for easy browsing and discovery.
+- Page for each product containing more details.
+- Shopping cart functionality to add and manage items.
+- Secure payment page for safe and reliable transactions.
+
+# Technologies
+- [@next.js](https://nextjs.org/)
+- [@react](https://react.dev/)
+- [@stitches](https://stitches.dev/)
+- [@stripe-node](https://github.com/stripe/stripe-node)
+- [@keen-slider](https://keen-slider.io/)
+- [@typescript](https://www.typescriptlang.org/)
+- [@eslint](https://eslint.org/)
+
+# Objective
+This project is a Rocketseat's challenge to the students where they have to develop the app by themselves.
+the purpose of this application is to practice my front-end skills building this beautiful page :D
+
+# How to install
+### `Installing packages:`
+- First, clone the repository to your machine
+- After cloning the repository, open the terminal inside the cloned repository directory and type:
+```
+  npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### `Configuring .env file:`
+- Before running the project, you need to configure 3 .env variables:
+- Stripe public and secrect key and the next app url, you can use the .env.example file for it.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### `Run the app:`
+```
+  npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+# Contributing
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Contributions are welcome to improve Igniters Shop! If you have any ideas, suggestions, or bug fixes, please feel free to open an issue, submit a pull request or contact me.
